@@ -10,3 +10,31 @@ html {
     font-family: 'Asap Condensed', sans-serif;
     font-family: 'Zilla Slab', serif;
 }
+
+h1 {
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+
+/*HEADER*/
+
+.header {
+    background-image: url("img/bg-banner.png");
+    height: 548px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+}

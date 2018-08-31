@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    font-family: 'Flamenco', cursive;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2.6rem;
+}
+
+h2{
+    font-family: 'Zilla Slab', serif;
+    font-size: 2rem;
+    color: #000;
+    line-height: 2.2rem;
+    text-align: center;
+}
+
+h3{
+
+}
+
+p{
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Asap';
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+/*Nav-menu*/
+
+.logo_nav{
+    width: 100px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.nav__menu_itens,
+.nav__menu_btn {
+    display: none;
+}
+
+.nav__menu_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fim da nava*/
+
+/*HEADER*/
+
+.header {
+    background-image: url("../img/bg-banner.png");
+    height: 450px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 85px auto 0 auto;
+}
+
+.header__subtitle {
+    color: #fff;
+    text-align: center;
+}
+
+
+.img-responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: #fce562;
+    text-align: center;
+    width: 191px;
+}
+
+
+/*MAIN*/
+
+/*sessao sobre*/
+
+.sessao__sobre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0;
+
+}
+
+.icone-sobre {
+    width: 90px;
+    height: auto;
+}
+
+.sessao__sobre_texto{
+    margin-left: 15px;
+}
+
+.sessao__sobre_texto h2 {
+    text-align: left; 
+}
+
+/*sessao passo a passo*/
+
+.sessao__passo-a-passo_itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sessao__passo-a-passo_itens p{
+    text-align: center;
+}
+
+
+.icone-passo {
+    width: auto;
+    height: 85px;
+}
+
+/*SESSAO NOSSOS SERVICOS*/
+
+.sessao__servicos {
+    background-image: url("../img/bg-servicos.png");
+    height: 450px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-azul {
+    display: block;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #67BED3;
+    width: 280px;
+}
